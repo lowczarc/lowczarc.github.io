@@ -1,0 +1,123 @@
+@font-face {
+	font-family: CharterR;
+	src: url(/fonts/CharterBT.ttf);
+}
+
+@font-face {
+	font-family: KievitB;
+	src: url(/fonts/Kievit_Bold.ttf);
+}
+
+body {
+	margin: 0;
+}
+
+header {
+	box-shadow: 0 4px 12px 0 rgba(0,0,0,.05)
+}
+
+.header_content {
+	max-width: 1000px;
+	margin: auto;
+	padding: 10px 5px 20px 5px;
+}
+
+header h1 {
+	color: #111;
+	font-family: Times;
+	font-weight: 400;
+	font-size: 32px;
+	margin: 0;
+}
+
+header h4 {
+	color: #292929;
+	font-family: CharterR;
+	font-style: italic;
+	font-size: 15px;
+	font-weight: 100;
+	margin: 0;
+	margin-left: 10px;
+}
+
+section {
+	display: flex;
+	justify-content: center;
+	margin: 40px auto auto auto;
+	max-width: 900px;
+}
+
+nav {
+	margin-left: 20px;
+	max-width: 150px;
+}
+
+nav.all {
+	max-width: 900px;
+}
+
+nav h4 {
+	font-family: Times;
+	font-weight: 400;
+	font-size: 21px;
+	color: #292929;
+}
+
+nav li {
+	font-size: 15px;
+	margin-top: 15px;
+}
+
+article {
+	max-width: 695px;
+	padding: 5px;
+	font-family: CharterR;
+	color: #292929;
+}
+
+article h1 {
+	font-size: 42px;
+	font-weight: 400;
+	font-family: Times;
+	margin: 0;
+}
+
+article h2 {
+	font-family: CharterR;
+	font-style: italic;
+	font-size: 21px;
+	font-weight: 400;
+}
+
+article .author {
+	color: #999;
+	text-align: right;
+}
+
+article h3 {
+	font-size: 19px;
+	font-family: KievitB;
+	font-weight: 400;
+}
+
+article p {
+	line-height: 1.8;
+	text-align: justify;
+}
+
+section a {
+	color: #0072ff;
+	border-bottom: solid 1px #0072ff;
+	text-decoration: none;
+}
+
+section a:hover {
+	color: #004090;
+	border-bottom: dotted 1px #004090;
+}
+
+figcaption {
+	color: #999;
+	text-align: center;
+	font-size: 12px;
+}
