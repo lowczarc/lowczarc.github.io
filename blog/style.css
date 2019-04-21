@@ -69,7 +69,7 @@ nav li {
 }
 
 article {
-	max-width: 695px;
+	max-width: 730px;
 	padding: 5px;
 	font-family: CharterR;
 	color: #292929;
@@ -77,8 +77,9 @@ article {
 
 article h1 {
 	font-size: 42px;
+	line-height: 1.25;
 	font-weight: 400;
-	font-family: Times;
+	font-family: 'Times New Roman', Times, serif;
 	margin: 0;
 }
 
@@ -94,15 +95,34 @@ article .author {
 	text-align: right;
 }
 
+article .author a {
+	color: #999;
+	border-bottom: 1px solid #999;
+}
+
+article .author a:hover {
+	color: #777;
+	border-bottom: 1px solid #777;
+} 
+
 article h3 {
-	font-size: 19px;
+	margin: 0;
+	margin-top: 56px;
+	line-height: 1.15;
+	font-size: 34px;
 	font-family: KievitB;
 	font-weight: 400;
 }
 
 article p {
-	line-height: 1.8;
-	text-align: justify;
+	margin: 0;
+	margin-top: 29px;
+	line-height: 1.58;
+	font-size: 21px;
+}
+
+article h3 + p {
+	margin-top: 8px;
 }
 
 section a {
